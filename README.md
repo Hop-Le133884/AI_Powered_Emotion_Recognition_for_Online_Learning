@@ -2,7 +2,7 @@
 Overview: A real-time computer vision application that detects multiple people in a video stream and analyzes their engagement levels through facial emotion recognition.
 
 
-## This project has two version:
+## This project has two version: This project combines YOLO (You Only Look Once) object detection with DeepFace emotion analysis to create a powerful engagement tracking system. The application:
 
 ## Webcam: Multi-Person Engagement Analyzer
 
@@ -13,10 +13,8 @@ Overview: A real-time computer vision application that detects multiple people i
 
 This application captures your primary monitor screen to analyze engagement levels of multiple participants in a Zoom meeting or other video conference software. It uses computer vision to detect people on screen and analyzes their facial emotions to determine engagement status in real-time.
 
-This project combines YOLO (You Only Look Once) object detection with DeepFace emotion analysis to create a powerful engagement tracking system. The application:
-
-![Screenshot from 2025-05-03 13-56-34](https://github.com/user-attachments/assets/569439ce-7447-40d4-9699-899d5bd6ecbc)
-![Screenshot from 2025-05-03 13-59-26](https://github.com/user-attachments/assets/753d5c78-971a-4b61-8134-a8aa00302f50)
+![live_recording](https://github.com/user-attachments/assets/84c2e29e-86b9-4b4c-8e1a-eff761ebbb19)
+![engagement_log](https://github.com/user-attachments/assets/ba2af34a-a60b-48da-a701-4ee658a68d88)
 
 
 
