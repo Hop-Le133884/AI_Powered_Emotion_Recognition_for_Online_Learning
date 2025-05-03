@@ -32,18 +32,18 @@ def map_emotion_to_engagement(emotion_label):
 # ============= Configuration =============
 # YOLO Configuration
 YOLO_MODEL = 'models/yolov8n.pt'          # YOLOv8 Nano model (COCO dataset)
-CONFIDENCE_THRESHOLD = 0.5         # Minimum detection confidence
-PROCESS_EVERY_N_FRAMES = 3         # Process every 3rd frame for performance
+CONFIDENCE_THRESHOLD = 0.3         # Minimum detection confidence
+PROCESS_EVERY_N_FRAMES = 6         # Process every 3rd frame for performance
 
 # DeepFace Configuration
 detector_backend = 'opencv'        # Fast detector for DeepFace
-bbox_size_threshold = 0.54         # Ignore detections wider/taller than this fraction of frame
+bbox_size_threshold = 0.64         # Ignore detections wider/taller than this fraction of frame
 
 # Screen Capture Configuration
 monitor_number = 1                 # Primary monitor (1-based index)
-screen_capture_width = 920        # Adjust to your screen resolution
-screen_capture_height = 480       # Adjust to your screen resolution
-screen_scale_factor = 0.5         # Scale factor for processing (1.0 = full resolution)
+screen_capture_width = 3296        # Adjust to your screen resolution
+screen_capture_height = 2060       # Adjust to your screen resolution
+screen_scale_factor = 0.3          # Scale factor for processing (1.0 = full resolution)
 
 # Initialize YOLO
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
