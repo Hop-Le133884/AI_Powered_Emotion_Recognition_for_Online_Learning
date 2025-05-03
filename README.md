@@ -54,7 +54,12 @@ pip install -r requirements.txt
 Run the main script:
 
 ```bash
-python engagement_analyzer.py
+cd src/
+python yolo_emotion_detection.py #detecting person and face expression
+```
+``` bash (other) to explore
+python emotion_reader.py
+python yolo_person_detection.py
 ```
 
 Controls:
