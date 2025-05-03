@@ -76,8 +76,8 @@ May not work with virtual backgrounds that interfere with person detection
 
 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/multi-person-engagement-analyzer.git
-cd multi-person-engagement-analyzer
+git clone https://github.com/Hop-Le133884/AI_Powered_Emotion_Recognition_for_Online_Learning
+cd AI_Powered_Emotion_Recognition_for_Online_Learning
 ```
 
 2. Install required dependencies
