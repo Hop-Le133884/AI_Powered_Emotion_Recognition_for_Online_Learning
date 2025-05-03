@@ -15,7 +15,8 @@ This application captures your primary monitor screen to analyze engagement leve
 
 This project combines YOLO (You Only Look Once) object detection with DeepFace emotion analysis to create a powerful engagement tracking system. The application:
 
-![Screenshot from 2025-05-03 13-56-34](https://github.com/user-attachments/assets/569439ce-7447-40d4-9699-899d5bd6ecbc)![Screenshot from 2025-05-03 13-59-26](https://github.com/user-attachments/assets/753d5c78-971a-4b61-8134-a8aa00302f50)
+![Screenshot from 2025-05-03 13-56-34](https://github.com/user-attachments/assets/569439ce-7447-40d4-9699-899d5bd6ecbc)
+![Screenshot from 2025-05-03 13-59-26](https://github.com/user-attachments/assets/753d5c78-971a-4b61-8134-a8aa00302f50)
 
 
 
