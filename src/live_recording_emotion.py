@@ -31,8 +31,8 @@ def map_emotion_to_engagement(emotion_label):
 
 # ============= Configuration =============
 # YOLO Configuration
-YOLO_MODEL = 'models/yolov8n.pt'          # YOLOv8 Nano model (COCO dataset)
-CONFIDENCE_THRESHOLD = 0.3         # Minimum detection confidence
+YOLO_MODEL = '../models/yolov8n.pt'          # YOLOv8 Nano model (COCO dataset)
+CONFIDENCE_THRESHOLD = 0.3         # Minimum person detection confidence
 PROCESS_EVERY_N_FRAMES = 6         # Process every 3rd frame for performance
 
 # DeepFace Configuration
