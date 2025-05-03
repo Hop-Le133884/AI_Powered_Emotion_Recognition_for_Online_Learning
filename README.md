@@ -1,7 +1,7 @@
 # Multi-Person Engagement Analyzer
+![engaged_neutral_emotion](https://github.com/user-attachments/assets/e38ff29b-7f76-4928-b758-409aaf0182bb)
+![not_engaged](https://github.com/user-attachments/assets/32a80cfd-3d2c-4778-abf4-6f1ca762809b)
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python Version](https://img.shields.io/badge/python-3.6%2B-green)
 
 A real-time computer vision application that detects multiple people in a video stream and analyzes their engagement levels through facial emotion recognition.
 
