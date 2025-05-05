@@ -8,12 +8,12 @@ from mapper_emotion import map_emotion_to_engagement
 # ============= Configuration =============
 # YOLO Configuration
 YOLO_MODEL = '../models/yolov8n.pt'          # YOLOv8 Nano model (COCO dataset)
-CONFIDENCE_THRESHOLD = 0.3         # Minimum detection confidence
-PROCESS_EVERY_N_FRAMES = 2        # Process every 3rd frame for performance
+CONFIDENCE_THRESHOLD = 0.5         # Minimum detection confidence
+PROCESS_EVERY_N_FRAMES = 10        # Process every 3rd frame for performance
 
 # DeepFace Configuration
 detector_backend = 'opencv'        # Fast detector for DeepFace
-bbox_size_threshold = 0.84         # Ignore detections wider/taller than this fraction of frame
+bbox_size_threshold = 0.80         # Ignore detections wider/taller than this fraction of frame
 
 # Initialize YOLO
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
