@@ -87,6 +87,7 @@ pip install -r requirements.txt
 
 ## 📋 Requirements
 
+- YOLO_MODEL = 'yolov8n.pt'
 - Python 3.6+
 - OpenCV
 - PyTorch
@@ -101,8 +102,8 @@ Run the main script:
 
 ```bash
 cd src/
-python zoom_engagement_analyzer.py 
-python yolo_emotion_detection.py #detecting person and face expression
+python live_recording_emotion.py # live capture the first monitor on computer
+python yolo_emotion_detection.py #detecting person and face expression through webcam
 ```
 ``` bash (other) to explore
 python emotion_reader.py

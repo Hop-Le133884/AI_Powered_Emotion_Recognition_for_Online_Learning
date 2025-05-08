@@ -3,7 +3,7 @@ import torch
 from ultralytics import YOLO
 
 # Configuration
-YOLO_MODEL = '../models/yolov8n.pt'          # YOLOv8 Nano model (COCO dataset)
+YOLO_MODEL = '../model_yolo/yolov8n.pt'          # YOLOv8 Nano model (COCO dataset)
 CONFIDENCE_THRESHOLD = 0.5         # Minimum detection confidence
 PROCESS_EVERY_N_FRAMES = 3         # Process every 3rd frame for performance
 

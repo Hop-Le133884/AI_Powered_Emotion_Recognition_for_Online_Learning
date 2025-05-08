@@ -7,9 +7,9 @@ from mapper_emotion import map_emotion_to_engagement
 
 # ============= Configuration =============
 # YOLO Configuration
-YOLO_MODEL = '../models/yolov8n.pt'          # YOLOv8 Nano model (COCO dataset)
+YOLO_MODEL = '../model_yolo/yolov8n.pt'          # YOLOv8 Nano model (COCO dataset)
 CONFIDENCE_THRESHOLD = 0.5         # Minimum detection confidence
-PROCESS_EVERY_N_FRAMES = 10        # Process every 3rd frame for performance
+PROCESS_EVERY_N_FRAMES = 3        # Process every 3rd frame for performance
 
 # DeepFace Configuration
 detector_backend = 'opencv'        # Fast detector for DeepFace
