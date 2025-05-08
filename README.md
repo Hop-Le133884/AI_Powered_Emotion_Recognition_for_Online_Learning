@@ -105,6 +105,7 @@ cd src/
 python live_recording_emotion.py # live capture the primary monitor on computer
 python yolo_emotion_detection.py #detecting person and face expression through webcam
 ```
+bash (other) to explore
 ``` bash (other) to explore
 python emotion_reader.py
 python yolo_person_detection.py
